@@ -1,0 +1,51 @@
+.information-person{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.information-person .image-person img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+
+.information-person .detail-information-person{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.information-person .detail-information-person p{
+    direction: rtl;
+}
+
+
+.person-works .header-person-works{
+    display: flex;
+    justify-content: end;
+}
+
+.person-works .body-person-works{
+    display: flex;
+    flex-direction: column;
+}
+
+.person-works .body-person-works .row-works{
+    display: flex;
+
+}
+
+.person-works .body-person-works .row-works .work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-works .body-person-works .row-works .work img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}

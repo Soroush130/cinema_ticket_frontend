@@ -1,0 +1,168 @@
+.header-payment {
+    display: flex;
+    justify-content: end;
+}
+
+
+.body-payment .payment-detail .section1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.body-payment .payment-detail .section1 .ticket-price {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.body-payment .payment-detail .section1 .total-ticket-price {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.body-payment .payment-detail .section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.body-payment .payment-price{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+
+.header-discount{
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+
+.body-discount form{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* */
+/* ()()()()()()()()()()()())()()()() */
+
+
+.information-movie {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* padding: 10px; */
+    flex-direction: row-reverse;
+}
+
+.information-movie .cover-movie img {
+    width: 250px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.information-movie .detail-movie {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    align-items: end;
+}
+
+
+.information-movie .detail-movie .place-movie {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+
+.information-movie .detail-movie .sans-movie {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+
+.information-movie .detail-movie .sans-movie .s1,
+.information-movie .detail-movie .sans-movie .s2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+
+/* ------------------- */
+
+.information-tickets {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /* padding: 10px; */
+    flex-direction: column;
+}
+
+.information-tickets .count-tickets h3 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.seat-record {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.seat-record a {
+    text-decoration: none;
+    color: black;
+}
+
+.seats-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seats-cards .card {
+    /* border: 1px solid; */
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.seats-cards .card:hover {
+    box-shadow: 4px 4px 2px rgb(73, 89, 78);
+    cursor: pointer;
+}
+
+/* ===================================================================== */
+
+
+.header-rules {
+    display: flex;
+    justify-content: end;
+}
+
+.body-rules {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    align-items: end;
+}
+
+.body-rules .rule {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+
+.body-rules .rule i {
+    font-size: 10px;
+    color: red;
+}

@@ -1,0 +1,11 @@
+#searchInputFilmDate {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    height: 38px;
+    line-height: 38px;
+    width: 309px;
+    font-size: 16px;
+    padding: 0 5px;
+    color: #666;
+    display: block;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Vazir";
+    src: url(../../../fonts/profile/fonts/Vazir.ttf);
+}
+@font-face {
+    font-family: digikala;
+    src: url('../../../fonts/profile/fonts/digikala.eot');
+    src: url('../../../fonts/profile/fonts/digikala.eot?#iefix') format('embedded-opentype'), url('../../../fonts/profile/fonts/digikala.woff2') format('woff2'), url('../../../fonts/profile/fonts/digikala.woff') format('woff'), url('../../../fonts/profile/fonts/digikala.ttf') format('truetype')
+}

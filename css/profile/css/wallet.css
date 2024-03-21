@@ -1,0 +1,15 @@
+.wallet-balance{
+    display: flex;
+    background-color: gray;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 21%;
+    justify-content: space-around;
+}
+
+.wallet-balance .balance{
+    margin: 0 15px;
+
+}
+

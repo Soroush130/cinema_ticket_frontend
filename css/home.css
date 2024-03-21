@@ -1,0 +1,147 @@
+.catogory {
+    margin: 6px 9px;
+}
+
+.catogory a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.slider-img {
+    border-radius: 20px;
+}
+
+.tabel-sell {
+    border-radius: 11px;
+}
+
+.tabel-sell .header-tabel-sell {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.body-tabel-sell {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.cell-tabel-sell {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.cell-tabel-sell .info-film {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.cell-tabel-sell .info-film a {
+    text-decoration: none;
+    color: black;
+}
+
+.films {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.films .box-film {
+    display: flex;
+}
+
+.films .film {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.film .film-cover {
+    width: 250px;
+    height: 350px;
+}
+
+.films .film a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.bg-re-fi {
+    border-radius: 20px;
+    filter: blur(2px)
+}
+
+.recommend-film {
+    position: relative;
+}
+
+.info-recommend-film {
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    flex-direction: row-reverse;
+}
+
+.co-re-fi {
+    position: relative;
+    top: 20px;
+    right: 20px;
+    width: 240px;
+    height: 270px;
+}
+
+.in-re-fi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    color: white;
+}
+
+.rating-re-fi{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rat-re-fi{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.min-re-fi{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.type-re-fi{
+
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 8px;
+}

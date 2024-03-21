@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سینما تیکت</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- css files for persian datepicker -->
+    <link rel="stylesheet" href="css/persian_datepicker/style.css">
+    <link rel="stylesheet" href="css/persian_datepicker/demo.css">
+    <link rel='stylesheet' href='https://unpkg.com/@majidh1/jalalidatepicker/dist/jalalidatepicker.min.css'>
+
+
+    <link rel="stylesheet" href="css/movie_detail.css">
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                    <img src="img/cinema-logo.png" alt="" width="30" height="24">
+                </a>
+                <a class="navbar-brand" href="">سینما تیکت</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="">خانه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">پروفایل</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="جستوجوی فیلم" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <section>
+        <div class="container-fluid my-4 container-information-movie">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 information-movie">
+                    <div class="title-movie mt-5">
+                        <h5>هتل | مسعود اطیابی</h5>
+                    </div>
+                    <div class="duration-movie mt-4">
+                        <span class="type-movie">کمدی</span>
+                        <i class="fa fa-hourglass mx-2"></i>
+                        <span class="minute-movie">110 دقیقه</span>
+                    </div>
+                    <div class="rating-movie mt-4">
+                        <div class="rate-movie">
+                            <i class="fa fa-heart"></i>
+                            <span class="mx-2">4.5</span>
+                        </div>
+                    </div>
+                    <div class="actors-movie mt-5">
+                        <div class="actor mx-2 my-2">
+                            <img src="img/actors/1.webp" alt="">
+                            <span class="name-actor">
+                                محسن کیایی
+                            </span>
+                        </div>
+                        <div class="actor mx-2 my-2">
+                            <img src="img/actors/1.webp" alt="">
+                            <span class="name-actor">
+                                محسن کیایی
+                            </span>
+                        </div>
+                        <div class="actor mx-2 my-2">
+                            <img src="img/actors/1.webp" alt="">
+                            <span class="name-actor">
+                                محسن کیایی
+                            </span>
+                        </div>
+                        <div class="actor mx-2 my-2">
+                            <img src="img/actors/1.webp" alt="">
+                            <span class="name-actor">
+                                محسن کیایی
+                            </span>
+                        </div>
+                        <div class="actor mx-2 my-2">
+                            <img src="img/actors/1.webp" alt="">
+                            <span class="name-actor">
+                                محسن کیایی
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/films/f1.webp" class="cover-movie" alt="">
+                </div>
+                <!-- <div class="col-md-1"></div> -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="container-fluid">
+        <div class="row my-3">
+
+
+            <div class="col-md-3 bg-light">
+
+                <div class="tabel-sell">
+                    <div class="header-tabel-sell">
+                        <h5 class="p-1">جدول فروش</h3>
+                            <p class="p-1 m-3">بروزرسانی : دیروز</p>
+                    </div>
+                    <hr>
+                    <div class="body-tabel-sell">
+                        <div class="cell-tabel-sell m-3">
+                            <img src="img/films/f1.webp" alt="" style="width: 80px; height: 100px;">
+                            <div class="info-film mx-2">
+                                <a href="">فسیل</a>
+                                <p>کریم امینی</p>
+                            </div>
+                        </div>
+                        <div class="cell-tabel-sell m-3">
+                            <img src="img/films/f2.webp" alt="" style="width: 80px; height: 100px;">
+                            <div class="info-film mx-2">
+                                <a href="">فسیل</a>
+                                <p>کریم امینی</p>
+                            </div>
+                        </div>
+                        <div class="cell-tabel-sell m-3">
+                            <img src="img/films/f3.webp" alt="" style="width: 80px; height: 100px;">
+                            <div class="info-film mx-2">
+                                <a href="">فسیل</a>
+                                <p>کریم امینی</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabel-sell">
+                    <div class="header-tabel-sell">
+                        <h5 class="p-1">پربازدید ترین</h3>
+                            <p class="p-1 m-3">بروزرسانی : دیروز</p>
+                    </div>
+                    <hr>
+                    <div class="body-tabel-sell">
+                        <div class="cell-tabel-sell m-3">
+                            <img src="img/films/f1.webp" alt="" style="width: 80px; height: 100px;">
+                            <div class="info-film mx-2">
+                                <a href="">فسیل</a>
+                                <p>کریم امینی</p>
+                            </div>
+                        </div>
+                        <div class="cell-tabel-sell m-3">
+                            <img src="img/films/f2.webp" alt="" style="width: 80px; height: 100px;">
+                            <div class="info-film mx-2">
+                                <a href="">فسیل</a>
+                                <p>کریم امینی</p>
+                            </div>
+                        </div>
+                        <div class="cell-tabel-sell m-3">
+                            <img src="img/films/f3.webp" alt="" style="width: 80px; height: 100px;">
+                            <div class="info-film mx-2">
+                                <a href="">فسیل</a>
+                                <p>کریم امینی</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-9 bg-light">
+                <div class="container-fluid">
+                    <div class="row my-4">
+                        <div class="col-md-11">
+
+                            <h3 class="my-2" style="text-align: end;">درباره فیلم <span>فسیل</span></h3>
+
+                            <p class="my-4" style="text-align: end;">فیلم فسیل به کارگردانی بهمن گودرزی و تهیه‌کنندگی
+                                مرتضی شایسته است که ژانری کمدی دارد.
+                                امین حیایی، امیر جعفری و امیرحسین رستمی بازیگران این فیلم هستند</p>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+
+                    <div class="row my-4"
+                        style="padding: 15px; background-color: rgb(215, 215, 215); border-radius: 10px;">
+                        <div class="sans-header">
+                            <div class="sans-title">
+                                <h4>انتخاب سانس</h4>
+                            </div>
+                            <div class="sans-search">
+                                <form action="" method="GET" class="search-film">
+                                    <div class="">
+                                        <label for="searchInputFilm" class="form-label">نام فیلم</label>
+                                        <input type="text" class="form-control" id="searchInputFilm">
+                                    </div>
+                                    <div class="">
+                                        <label for="searchInputFilmDate" class="form-label">تاریخ</label>
+                                        <input id="searchInputFilmDate" type="text" data-jdp
+                                            placeholder="لطفا یک تاریخ وارد نمایید" />
+                                    </div>
+                                    <button type="submit" class="btn btn-primary my-2">جستجو</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid my-4">
+
+                        <div class="row">
+
+                            <div class="cinema">
+
+                                <div class="overall-information">
+                                    <div class="cinema-header">
+                                        <div class="cinema-img">
+                                            <img src="img/cinema/c1.webp" alt="" width="200px" height="200px"
+                                                style="border-radius: 15px;">
+                                            <a href="" class="my-2">
+                                                <i class="fa fa-arrow-left"></i>
+                                                <span>درباره پردیس سینمایی <span>هویزه</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="cinema-information mx-5">
+
+                                        <div class="cinema-name my-2">
+                                            <h4>پردیس سینمایی اطلس مشهد</h4>
+                                        </div>
+
+                                        <div class="cinema-address my-2">
+                                            <i class="fa fa-map-marker" style="font-size: 30px;"></i>
+                                            <h6 class="mx-2">خیابان دانشگاه، چهارراه گلستان</h6>
+                                        </div>
+
+                                        <div class="cinema-rate">
+                                            <i class="fa fa-star mx-2" style="font-size: 20px; color: white;"></i>
+                                            <h5 class="mx-2" style="color: white;">3.6/5</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cinema-halls my-4">
+
+                                    <div class="hall">
+
+                                        <div class="hall-title">
+                                            <h4>سالن یک</h4>
+                                        </div>
+
+                                        <div class="hall-information my-1 col-md-5">
+                                            <div class="hall-time">
+                                                <div class="hall-time-detail">
+                                                    <i class="fa fa-clock-o" style="font-size: 20px;"></i>
+                                                    <h6 class="mx-2">سانس <span>21:50</span></h6>
+                                                </div>
+                                                <div class="hall-price">
+                                                    <h4>50000 تومان</h4>
+                                                </div>
+                                            </div>
+                                            <div class="buy-ticket">
+                                                <button class="btn btn-primary">
+                                                    <i class="fa fa-ticket"></i>
+                                                    خرید بلیط
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="hall-information my-1 col-md-5">
+                                            <div class="hall-time">
+                                                <div class="hall-time-detail">
+                                                    <i class="fa fa-clock-o" style="font-size: 20px;"></i>
+                                                    <h6 class="mx-2">سانس <span>21:50</span></h6>
+                                                </div>
+                                                <div class="hall-price">
+                                                    <h4>50000 تومان</h4>
+                                                </div>
+                                            </div>
+                                            <div class="buy-ticket">
+                                                <button class="btn btn-primary">
+                                                    <i class="fa fa-ticket"></i>
+                                                    خرید بلیط
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="hall-information my-1 col-md-5">
+                                            <div class="hall-time">
+                                                <div class="hall-time-detail">
+                                                    <i class="fa fa-clock-o" style="font-size: 20px;"></i>
+                                                    <h6 class="mx-2">سانس <span>21:50</span></h6>
+                                                </div>
+                                                <div class="hall-price">
+                                                    <h4>50000 تومان</h4>
+                                                </div>
+                                            </div>
+                                            <div class="buy-ticket">
+                                                <button class="btn btn-primary">
+                                                    <i class="fa fa-ticket"></i>
+                                                    خرید بلیط
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="cinema">
+
+                                <div class="overall-information">
+                                    <div class="cinema-header">
+                                        <div class="cinema-img">
+                                            <img src="img/cinema/c2.webp" alt="" width="200px" height="200px"
+                                                style="border-radius: 15px;">
+                                            <a href="" class="my-2">
+                                                <i class="fa fa-arrow-left"></i>
+                                                <span>درباره پردیس سینمایی <span>هویزه</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="cinema-information mx-5">
+
+                                        <div class="cinema-name my-2">
+                                            <h4>پردیس سینمایی اطلس مشهد</h4>
+                                        </div>
+
+                                        <div class="cinema-address my-2">
+                                            <i class="fa fa-map-marker" style="font-size: 30px;"></i>
+                                            <h6 class="mx-2">خیابان دانشگاه، چهارراه گلستان</h6>
+                                        </div>
+
+                                        <div class="cinema-rate">
+                                            <i class="fa fa-star mx-2" style="font-size: 20px; color: white;"></i>
+                                            <h5 class="mx-2" style="color: white;">3.6/5</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cinema-halls my-4">
+
+                                    <div class="hall">
+
+                                        <div class="hall-title">
+                                            <h4>سالن یک</h4>
+                                        </div>
+
+                                        <div class="hall-information my-1 col-md-5">
+                                            <div class="hall-time">
+                                                <div class="hall-time-detail">
+                                                    <i class="fa fa-clock-o" style="font-size: 20px;"></i>
+                                                    <h6 class="mx-2">سانس <span>21:50</span></h6>
+                                                </div>
+                                                <div class="hall-price">
+                                                    <h4>50000 تومان</h4>
+                                                </div>
+                                            </div>
+                                            <div class="buy-ticket">
+                                                <button class="btn btn-primary">
+                                                    <i class="fa fa-ticket"></i>
+                                                    خرید بلیط
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="hall-information my-1 col-md-5">
+                                            <div class="hall-time">
+                                                <div class="hall-time-detail">
+                                                    <i class="fa fa-clock-o" style="font-size: 20px;"></i>
+                                                    <h6 class="mx-2">سانس <span>21:50</span></h6>
+                                                </div>
+                                                <div class="hall-price">
+                                                    <h4>50000 تومان</h4>
+                                                </div>
+                                            </div>
+                                            <div class="buy-ticket">
+                                                <button class="btn btn-primary">
+                                                    <i class="fa fa-ticket"></i>
+                                                    خرید بلیط
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="hall-information my-1 col-md-5">
+                                            <div class="hall-time">
+                                                <div class="hall-time-detail">
+                                                    <i class="fa fa-clock-o" style="font-size: 20px;"></i>
+                                                    <h6 class="mx-2">سانس <span>21:50</span></h6>
+                                                </div>
+                                                <div class="hall-price">
+                                                    <h4>50000 تومان</h4>
+                                                </div>
+                                            </div>
+                                            <div class="buy-ticket">
+                                                <button class="btn btn-primary">
+                                                    <i class="fa fa-ticket"></i>
+                                                    خرید بلیط
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="cinema">
+
+                                <div class="overall-information">
+                                    <div class="cinema-header">
+                                        <div class="cinema-img">
+                                            <img src="img/cinema/c3.webp" alt="" width="200px" height="200px"
+                                                style="border-radius: 15px;">
+                                            <a href="" class="my-2">
+                                                <i class="fa fa-arrow-left"></i>
+                                                <span>درباره پردیس سینمایی <span>هویزه</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="cinema-information mx-5">
+
+                                        <div class="cinema-name my-2">
+                                            <h4>پردیس سینمایی اطلس مشهد</h4>
+                                        </div>
+
+                                        <div class="cinema-address my-2">
+                                            <i class="fa fa-map-marker" style="font-size: 30px;"></i>
+                                            <h6 class="mx-2">خیابان دانشگاه، چهارراه گلستان</h6>
+                                        </div>
+
+                                        <div class="cinema-rate">
+                                            <i class="fa fa-star mx-2" style="font-size: 20px; color: white;"></i>
+                                            <h5 class="mx-2" style="color: white;">3.6/5</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cinema-halls my-4">
+
+                                    <div class="hall">
+
+                                        <div class="hall-title">
+                                            <h4>سالن یک</h4>
+                                        </div>
+
+                                        <div class="hall-information my-1 col-md-5">
+                                            <div class="hall-time">
+                                                <div class="hall-time-detail">
+                                                    <i class="fa fa-clock-o" style="font-size: 20px;"></i>
+                                                    <h6 class="mx-2">سانس <span>21:50</span></h6>
+                                                </div>
+                                                <div class="hall-price">
+                                                    <h4>50000 تومان</h4>
+                                                </div>
+                                            </div>
+                                            <div class="buy-ticket">
+                                                <button class="btn btn-primary">
+                                                    <i class="fa fa-ticket"></i>
+                                                    خرید بلیط
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="hall-information my-1 col-md-5">
+                                            <div class="hall-time">
+                                                <div class="hall-time-detail">
+                                                    <i class="fa fa-clock-o" style="font-size: 20px;"></i>
+                                                    <h6 class="mx-2">سانس <span>21:50</span></h6>
+                                                </div>
+                                                <div class="hall-price">
+                                                    <h4>50000 تومان</h4>
+                                                </div>
+                                            </div>
+                                            <div class="buy-ticket">
+                                                <button class="btn btn-primary">
+                                                    <i class="fa fa-ticket"></i>
+                                                    خرید بلیط
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="hall-information my-1 col-md-5">
+                                            <div class="hall-time">
+                                                <div class="hall-time-detail">
+                                                    <i class="fa fa-clock-o" style="font-size: 20px;"></i>
+                                                    <h6 class="mx-2">سانس <span>21:50</span></h6>
+                                                </div>
+                                                <div class="hall-price">
+                                                    <h4>50000 تومان</h4>
+                                                </div>
+                                            </div>
+                                            <div class="buy-ticket">
+                                                <button class="btn btn-primary">
+                                                    <i class="fa fa-ticket"></i>
+                                                    خرید بلیط
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row my-4"
+                        style="padding: 15px; background-color: rgb(215, 215, 215); border-radius: 10px;">
+                        <div class="comments">
+                            <div class="comment-header">
+                                <h4 class="mx-2">دیدگاه‌های فیلم هاوایی </h4>
+                                <h6 class="mx-2">(868) دیدگاه ثبت شده</h4>
+                            </div>
+                            <hr class="m-3">
+                            <div class="comment-box">
+                                <form action="" method="POST">
+                                    <div class="mb-3">
+
+                                        <label for="commentDescription" class="form-label">نظر شما</label>
+                                        <textarea name="description" class="form-control" cols="30" rows="10"
+                                            id="commentDescription"></textarea>
+
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">ثبت</button>
+                                </form>
+                            </div>
+                            <hr class="m-3">
+                            <div class="comments-users">
+
+                                <div class="comment-user-box my-3">
+                                    <div class="avatar-user">
+                                        <img src="img/profile-mine.svg" alt="">
+                                    </div>
+                                    <div class="information-user mx-5">
+                                        <h6>سروش نعیمی</h6>
+                                        <p>فیلم خوبی بود از فیلمهای موجود روی پرده این بهترین بود بقیه فیلمها خوب نبود</p>
+                                        <h6>ده دقیقه پیش</h6>
+                                    </div>
+                                </div>
+
+                                <div class="comment-user-box my-3">
+                                    <div class="avatar-user">
+                                        <img src="img/profile-mine.svg" alt="">
+                                    </div>
+                                    <div class="information-user mx-5">
+                                        <h6>پیام پروازمنش</h6>
+                                        <p>مثلا کمدی بود ولی یه لحظه خنده دارم نداشت. تا حالا با همچین موضوعی هزار تا فیام تکراری ساختن</p>
+                                        <h6>بیست دقیقه پیش</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <!-- script for persian datepicker -->
+    <script src='https://unpkg.com/@majidh1/jalalidatepicker/dist/jalalidatepicker.min.js'></script>
+    <script src="js/persion_datepicker/script.js"></script>
+
+</body>
+
+</html>
